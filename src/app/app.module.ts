@@ -5,6 +5,7 @@ import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
 import { SidebarModule } from "./modules/sidebar/sidebar.module";
+import {TopMenuModule} from "./modules/top-menu/top-menu.module";
 
 @NgModule({
     declarations: [
@@ -14,7 +15,8 @@ import { SidebarModule } from "./modules/sidebar/sidebar.module";
         BrowserModule,
         FormsModule,
         HttpModule,
-        SidebarModule
+        SidebarModule,
+        TopMenuModule
     ],
     providers: [],
     bootstrap: [AppComponent]
